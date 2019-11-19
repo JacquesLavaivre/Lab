@@ -1,13 +1,13 @@
-language: C++
-sudo : false
-addons : 
-  apt : 
-    packages : 
-      - cmake
-matrix : 
-  include :
-    - os : linux
-    compiler : gcc-5
+language: c++
+sudo: false
+addons: 
+  apt:
+    packages: 
+    - cmake
+matrix:
+  include:
+    - os: linux
+      compiler: gcc-5
 
 script:
   - mkdir build
